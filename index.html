@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css" />
+    <title>JavaScript Documenation</title>
+</head>
+<body>
+<nav id="navbar">
+  <img class = "logo-image" src="https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png">
+</a>
+    <header class="nav-header">JavaScript</header>
+  <a class="nav-link" href="#Introduction">
+      <div class="nav-box">Introduction</div>  
+    </a>
+    <a class="nav-link" href="#Variables">
+      <div class="nav-box">Variables</div>
+    </a>
+    <a class="nav-link" href="#Functions">
+      <div class="nav-box">Functions</div>
+    </a>  
+    <a class="nav-link" href="#Objects">
+      <div class="nav-box">Objects</div>
+    </a>
+    <a class="nav-link" href="#Comments">
+      <div class="nav-box">Comments</div>
+    </a>
+    <a class="nav-link" href="#Reference">
+      <div class="nav-box">Reference</div>
+    </a>  
+  </nav>
+<main id="main-doc">
+  <h1 id="home">JavaScript Basics</h1>
+  <section id="Introduction" class="main-section gray-background">
+    <header>Introduction</header>
+    <p>JavaScript is a dynamic programming language which, when applied to an HTML document, provides dynamic interactivity on websites. It is incredibly versatile, starting with basics such as carousels, image galleries, fluctuating layouts, and responses to button clicks to the ability to create games, animated 2D and 3D graphics, comprehensive database-driven apps, and a whole lot more!
+JavaScript itself is fairly compact yet very flexible. Developers have written a large variety of tools on top of the core JavaScript language, unlocking a vast amount of extra functionality with minimum effort. These include:</p>
+    <div class="line-break">
+    </div>
+    <li>Browser Application Programming Interfaces (APIs) — APIs built into web browsers, providing functionality like dynamically creating HTML and setting CSS styles, collecting and manipulating a video stream from the user's webcam, or generating 3D graphics and audio samples.</li>
+    <li>Third-party APIs to allow developers to incorporate functionality in their sites from other content providers, such as Twitter or Facebook.</li>
+    <li>Third-party frameworks and libraries you can apply to your HTML to allow you to rapidly build up sites and applications.</li>  
+  </section>
+  <section id="Variables" class="main-section white-background">
+    <header>Variables</header>
+    <p>Variables are containers for storing data values. In JS there are essentially four variables, which you should concern yourself with:</p>
+    <li>Integer</li>
+    <li>String</li>
+    <li>Boolean</li>
+    <li>Float</li>
+    <p>Declare your variables using var and give it a name so you can reference it again in your code. To assign an initial value to you variable, simply add "=" together with the value.</p>
+    <p>For integers:</p>
+    <div class="code-container">
+      <code>var number = 2;</code>
+    </div>
+    <p>For Strings:</p>
+    <div class="code-container">
+      <code>var name = "Ifrah";</code>
+    </div>
+    <p>For booleans:</p>
+    <div class="code-container">
+      <code>var married = true;</code>
+    </div>
+    <p>For Floats:</p>
+      <div class="code-container">
+    <code>var height = 1.7;</code>
+    </div>
+  </section>
+  <section id="Functions" class="main-section gray-background">
+    <header>Functions</header>
+    <p>A function is a block of code designed to perform a designated task. It is invoked when something (a user action, a timeout, another function) calls it.</p>
+    <p>To declare a function, first give it a name and round brackets () into which you may parse further information (this is optional)</p>
+    <div class="code-container">
+    <code>function myFunction()</code>
+    </div>
+    <p>Next add a space and insert a pair of curly brackets, inside which you can insert the code you wish to perform, when the function is called.</p>
+    <div class="code-container">
+    <code>function myFunction() {<br>
+      console.log("Hello World!");<br>
+      }</code>
+    </div>
+  </section>
+  <section id="Objects" class="main-section white-background">
+    <header>Objects</header>
+    <p>Objects are essentially variables, to which you can assign multiple values. These values themselves can take all forms or common variable, including string, integer, boolean, array etc.</p>
+    <p>Create a JS object using the "var" keyword and assign it a name.</p>
+    <div class="code-container">
+    <code>var firstPerson</code>
+    </div>
+    <p>To add the properties of the object, assign them within a pair of curly brackets, seperating each one with a comma.</p>
+    <div class="code-container">
+    <code>var firstPerson = {<br>
+      firstName: "Ifrah",<br>
+      height: 1.7,<br>
+      age: 23;<br>
+      };</code>
+    </div>
+    <p>You can also call the individual properties using a dot operator/square brackets.</p>
+    <div class="code-container">
+  <code>console.log(firstPerson.height);</code>
+    </div>
+  </section>
+  <section id="Comments" class="main-section gray-background">
+    <header>Comments</header>
+    <p>There are two different types of comment you can use in JavaScript, namely:</p>
+    <li>Single-line comment</li>
+    <li>Multiple-line comment</li>
+    <p>To comment out a single line use the following:</p>
+    <div class="code-container">
+    <code>// This is a JavaScript comment;</code>
+    </div>
+    <p>To comment out mulitiple lines, open with /* and close with */</p>
+    <div class="code-container">
+    <code>/* This is a <br>
+      multi-line <br>
+      JavaScript comment */</code>
+    </div>
+  </section>
+  <section id="Reference" class="main-section white-background">
+    <header>Reference</header>
+    <p>The content of this documentation is based on <a href="https://www.freecodecamp.org/" target="_blank">FreeCodeCamp</a>, <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics" target="_blank">MDN</a> and <a href="https://www.w3schools.com/js/default.asp" target="_blank">w3schools</a>.</p>
+  </section>  
+</main>
+</body> 
+</html>
